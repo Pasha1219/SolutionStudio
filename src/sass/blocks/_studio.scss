@@ -1,0 +1,32 @@
+.studio {
+    width: 100%;
+    height: 600px;
+    background: #1A1A1A;
+    padding-top: 45px;
+    &__title {
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: left;
+        color: #FFFFFF;
+    }
+    &__content {
+        margin-top: 130px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__logo {
+        width: 425px;
+    }
+    &__descr {
+        width: 471px;
+
+        font-size: 18px;
+        line-height: 27px;
+
+        color: #FFFFFF;
+        span {
+            font-size: 24px;
+        }
+    }
+}

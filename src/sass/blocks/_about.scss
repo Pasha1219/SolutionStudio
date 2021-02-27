@@ -1,0 +1,95 @@
+.about {
+    width: 100%;
+    height: 592px;
+    background: #1A1A1A;
+    padding-top: 58px;
+    &__title {
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: right;
+        color: #FFFFFF;
+    }
+    &__content {
+        margin-top: 22px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__cards {
+        height: 407px;
+
+    }
+    &__card {
+        width: 565px;
+        height: 201px;
+        background: #202020;
+        padding-left: 30px;
+        padding-top: 27px;
+        padding-right: 54px;
+        margin-bottom: 7px;
+        transition: all 1s ;
+        &:hover {
+            background: #363636;
+            transition: all 1s ;
+            .about{
+                &__card{
+                    &__img {
+                        &_white {
+                            display: none;
+                        }
+                        &_blue {
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
+        &__title {
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 28px;
+
+            color: #FFFFFF;
+            margin-bottom: 14px;
+        }
+        &__wrap {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        &__img {
+            width: 60px;
+            height: 60px;
+            &_blue {
+                display: none;
+            }
+        }
+        &__descr {
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 27px;
+            color: #FFFFFF;
+            width: 395px;
+        }
+    }
+    &__card2 {
+        &:hover {
+            .about {
+                &__imgs {
+                    &_web {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+    &__imgs {
+        width: 412px;
+        height: 311px;
+        &_smm {
+            display: none;
+        }
+    }
+}

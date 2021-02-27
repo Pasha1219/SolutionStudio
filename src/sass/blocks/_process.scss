@@ -1,0 +1,46 @@
+.process {
+    width: 100%;
+    height: 3456px;
+    background: #1A1A1A;
+    &__title {
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: right;
+        color: #FFFFFF;
+    }
+    &__steps {
+        margin-top: 60px;
+    }
+    &__step{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+        &__img {
+            width: 545px;
+        }
+        &__wrapper {
+            width: 545px;
+        }
+        &__title {
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 27px;
+
+            color: #FFFFFF;
+        }
+        &__descr {
+            font-size: 18px;
+            line-height: 27px;
+            font-weight: normal;
+            color: #FFFFFF;
+            margin-top: 5px;
+        }
+        &_reverse {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+            margin-top: 50px;
+        }
+    }
+}

@@ -1,0 +1,127 @@
+.interest {
+    background: #1A1A1A;
+    width: 100%;
+    height: 537px;
+    padding-top: 62px;
+    position: relative;
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+
+        img {
+            position: absolute;
+            width: 635px;
+            height: 434px;
+            left: 422px;
+            top: 55px;
+
+        }
+    }
+    &__title {
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 27px;
+        color: #FFFFFF;
+    }
+    &__descr {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 27px;
+        color: #FFFFFF;
+
+        margin-top: 5px;
+    }
+    &__social {
+        width: 310px;
+        height: 27px;
+        display: flex;
+        justify-content: space-between;
+        i {
+            height: 100%;
+            width: 27px;
+            font-size: 27px;
+            color: #4368FF;
+            transition: 0.5s all;
+            cursor: pointer;
+            &:hover {
+                color:white;
+                transition: 0.5s all;
+            }
+        }
+        a {
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 27px;
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+    }
+    &__wrapper {
+        width: 545px;
+        min-height: 410px;
+        background: #202020;
+
+        display: flex;
+        flex-direction: column;
+        padding-top: 17px;
+        padding-bottom: 25px;
+        z-index: 100;
+        h3 {
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 27px;
+
+            color: #FFFFFF;
+            text-align: center;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            margin: 0 74px 0 74px;
+            input {
+                margin-top: 24px;
+
+                height: 40px;
+                background: #C4C4C4;
+                border-radius: 20px;
+                border: none;
+                padding: 5px 20px;
+                font-size: 14px;
+            }
+            textarea {
+                margin-top: 24px;
+
+                height: 100px;
+                background: #C4C4C4;
+                border-radius: 20px;
+                border: none;
+                padding: 5px 20px;
+                font-size: 14px;
+                resize: none;
+            }
+            button {
+                height: 45px;
+                background: #4368FF;
+                border-radius: 20px;
+                border: none;
+                margin-top: 36px;
+
+                font-weight: bold;
+                font-size: 20px;
+                line-height: 27px;
+                color: #FFFFFF;
+                transition: 0.5s all;
+                cursor: pointer;
+                &:hover {
+                    background: white;
+                    color: #4368FF;
+                    transition: 0.5s all;
+                }
+            }
+            .error {
+                padding-top: 5px;
+                color: white;
+            }
+        }
+    }
+}

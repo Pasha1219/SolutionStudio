@@ -1,0 +1,46 @@
+.footer {
+    width: 100%;
+    min-height: 100px;
+    background: rgb(19, 19, 19);
+    &__wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: space-between; 
+        padding-top: 38px;
+        padding-bottom: 38px;
+    }
+    &__left {
+        display: flex;
+        align-items: center;
+        a {
+            font-size: 14px;
+            line-height: 16px;
+            color: #525252;
+            margin-left: 14px;
+        }
+    }
+    &__center {
+        transform: translateX(-50px);
+        display: flex;
+        align-items: center;
+        a {
+            font-size: 14px;
+            line-height: 16px;
+
+            color: #525252;
+        }
+    }
+    &__right {
+        i {
+            font-size: 32px;
+            margin-left: 17px;
+            color: #525252;
+            transition: 0.5s all;
+            cursor: pointer;
+            &:hover {
+                transition: 0.5s all;
+                color: white;
+            }
+        }
+    }
+}
